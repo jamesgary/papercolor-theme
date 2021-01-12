@@ -2054,6 +2054,7 @@ fun! s:apply_syntax_highlightings()
   exec 'hi elmBraces' . s:fg_aqua . s:ft_bold
   exec 'hi elmTypedef' . s:fg_blue .  s:ft_bold
   exec 'hi elmTopLevelDecl' . s:fg_green . s:ft_bold
+  exec 'hi elmTopLevelFunction' . s:fg_green . s:ft_bold
 
   " Purescript highlighting
   exec 'hi purescriptModuleKeyword' . s:fg_navy
